@@ -1,7 +1,7 @@
 #таск 1
 def _transposition_str(strA):
     third = int((len(strA))/3)
-    strB = strA[third:third*2] + ''.join(strA[third*2:] if len(strA)%3 == 0 else strA[third*2:]) + strA[:third]
+    strB = strA[third:third*2] + strA[third*2:] + strA[:third]
     return strB
 
 #таск 2
