@@ -23,7 +23,6 @@ def _task_3():
 
 #таск 4
 def _task_4(li, i, y):
-    [10, 20, 30, 40, 50, 60]
     li[i-1], li[y-1] = 0, 0
     li[0], li[-1] = li[-1], li[0]
     return li
